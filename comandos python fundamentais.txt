@@ -1,0 +1,32 @@
+O pacote denominado numpy nos permite o acesso a funções de manipulação de dados e cálculos matemáticos.
+O matplotlib e seaborn são utilizados para a visualização de dados e plotagem de gráficos.
+O requests nos ajuda a fazer solicitações HTTP.
+O django e flask são utilizados para o desenvolvimento Web.
+Para a instalação dos pacotes externos, podemos utilizar gerenciadores como o pip.
+
+Como pudemos visualizar, a instalação do pacote necessita apenas da palavra pip e o comando install. Posteriormente, colocamos o nome do pacote que desejamos instalar.
+
+É importante ressaltar que podemos desinstalar o pacote instalado, basta ao invés de utilizar o install, trocamos por uninstall. E quando encontrarmos um pacote desinstalado, podemos utilizar o comando pip install --upgrade pip
+
+
+São comandos importantes também, os apresentados a seguir:
+
+Instalar uma versão específica de um pacote:
+
+pip install nome_do_pacote==versao_desejada
+
+Atualizar um pacote:
+
+pip install --upgrade nome_do_pacote
+
+Listar pacotes instalados:
+
+pip list
+
+Criar um arquivo de requisitos:
+
+pip freeze > requirements.txt
+
+Instalar pacotes a partir de um arquivo de requisitos:
+
+pip install -r requirements.txt
